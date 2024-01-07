@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&family=Inconsolata:wght@200;300;400;500;600;700&family=Montserrat:ital,wght@0,900;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,200;1,700&display=swap');
+
+.main-box {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Paaji 2', sans-serif;
+}
+
+.hello-data {
+    top: 13%;
+    left: 30%;
+    position: absolute;
+}
+
+.hello {
+    color: #4d62a9;
+    text-align: center;
+    font-weight: 800;
+    font-size: 6rem;
+}
+
+.self {
+    /* text-align: center; */
+    word-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+.child-box {
+    width: 80%;
+    display: flex;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box1 {
+    background-color: #4d62a9;
+    width: 40%;
+    margin: 10px;
+    border-radius: 20px;
+    padding-left: 60px;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.box1 p {
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.box1 h6 {
+    font-weight: 200;
+    text-align: left;
+    letter-spacing: 3px;
+}
+
+.box1 a {
+    margin: 5px;
+}
+
+.box2 {
+    border-radius: 20px;
+    margin: 10px 24px;
+    width: 50%;
+    height: auto;
+}
+
+.box2 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.animations {
+    margin-top: 80px;
+}
+
+.animations p {
+    text-align: left;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.small-box1 {
+    width: 45%;
+    margin-left: 30px;
+}
+
+.small-box2 {
+    width: 45%;
+}
+
+.small-box3 {
+    margin-left: 30px;
+    margin-top: 70px;
+    width: 45%;
+}
+
+.small-box4 {
+    margin-top: 70px;
+    width: 45%;
+}
+
+.custom-counter {
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: Montserrat, sans-serif !important;
+    color: #4d62a9;
+}
+
+.buttn {
+    display: flex;
+    justify-content: center;
+}
+
+.download-btn {
+    background-color: #4d62a9;
+    padding: 18px 210px;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+/* -------------------------------------------for mobile --------------------------------------------*/
+/* For mobile */
+@media (max-width: 767px) {
+    .main-box {
+        padding: 20px;
+        margin-top: 20%;
+        /* background-color: red; */
+        /* Adjust the padding for smaller screens */
+    }
+
+    .hello-data {
+        text-align: center;
+        position: static;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+
+    .hello {
+        font-size: 4rem;
+        margin-right: 0;
+        /* Remove right padding */
+    }
+
+    .child-box {
+        display: block;
+        margin-top: 105%;
+    }
+
+    .box1 {
+        width: 100%;
+        margin: 10px 0;
+        padding: 20px;
+    }
+
+    .box1 p,
+    .box1 h6 {
+        text-align: center;
+        /* Center align text */
+    }
+
+    .box2 {
+        width: 100%;
+        /* Occupy full width */
+        margin: 10px 0;
+        /* Adjust margin */
+    }
+
+    .animations {
+        margin-top: 40px;
+        /* Adjust margin */
+    }
+
+    .small-box1,
+    .small-box2,
+    .small-box3,
+    .small-box4 {
+        width: 100%;
+        /* Occupy full width */
+        margin: 10px 0;
+        /* Adjust margin */
+        text-align: center;
+        /* Center align text */
+    }
+
+    .small-box1 p,
+    .small-box2 p,
+    .small-box3 p,
+    .small-box4 p {
+        text-align: center;
+    }
+
+    .buttn {
+        text-align: center;
+        /* Center align button */
+    }
+
+    .download-btn {
+        padding: 15px 50px;
+        /* Adjust button padding */
+    }
+}
+
+
+/* -------------------------------for tablet------------------------- */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-box{
+        margin-top: 15%;
+    }
+    .hello-data {
+        text-align: center;
+        /* Center align text */
+        position: static;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+
+    .child-box {
+        width: 95%;
+        position: absolute;
+        top: 67%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .box1 {
+        width: 50%;
+    }
+
+    .download-btn {
+        padding: 15px 50px;
+        /* Adjust button padding */
+    }
+}

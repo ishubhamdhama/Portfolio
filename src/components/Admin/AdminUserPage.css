@@ -1,0 +1,29 @@
+.user__card{
+    margin: 10px;
+    padding: 5px 15px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px rgb(79, 77, 77);
+    width: 30%;
+}
+.admin__panel{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 100vw;
+}
+.user__details h2{
+    font-size: 20px;
+}
+.user__details h2 span{
+    color: rgb(161, 142, 142);
+}
+.user__details p span{
+    color: green;
+    font-weight: bold;
+}
+.delete__button{
+    color: red;
+    cursor: pointer;
+    text-align: end;
+    /* background-color: aqua; */
+}

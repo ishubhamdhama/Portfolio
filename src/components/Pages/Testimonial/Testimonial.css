@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&family=Inconsolata:wght@200;300;400;500;600;700&family=Pacifico&family=Pixelify+Sans:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,200;1,700&display=swap');
+.testimonial{
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(76,91,134,1) 100%);
+    
+}
+.testi{
+    width: 100%;
+    height: auto;
+}
+.testi p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #000000;
+}
+.testi h2{
+    text-align: center;
+    color: #4d62a9;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 39px;
+}
+.testi-rev{
+    margin-top: 70px;
+}
+.mb-3{
+    color: #4d62a9;
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+}
+.text-muted{
+    font-family: 'Poppins', sans-serif;
+    color: #bababa;
+}
+.profession{
+    font-size: 1.2rem;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 900;
+
+}
+.footer {
+    width: 100%;
+    height: auto;
+    margin-top: 130px;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+    padding: 10px 0;
+  }
+  
+  .footer hr {
+    width: 80%;
+    text-align: center;
+    left: 10%;
+    position: relative;
+    color: #ffffff;
+    border: 1px solid;
+  }
+  
+  .para {
+    width: 45%;
+    position: relative;
+    left: 10%;
+    color: #ffffff;
+  }
+  
+  .social-handle {
+    padding-left: 20%;
+    width: 45%;
+  }
+  
+  .social-handle i {
+    margin: 0 8px;
+    font-size: 24px;
+    transition: all .50s ease;
+  }
+  
+  .social-handle i:hover {
+    color: #ffffff !important;
+    transform: translateY(-5px);
+  }
+  
+  /* for Tablet */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .testimonial{
+            
+        background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(76,91,134,1) 100%);
+        height: 86vh;
+    }
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+    }
+  
+    .social-handle {
+      padding-left: 10%;
+      padding-bottom: 15px
+    }
+    .testi{
+        margin-top: 10%;
+    }
+    .testi-rev{
+        margin-top: 20%;
+        position: relative;
+        bottom: 30px;
+    }
+  }
+  
+  /* for Mobile */
+  @media (max-width: 767px) {
+    .footer-content {
+      display: grid;
+    }
+  
+    .para {
+      width: 100%;
+    }
+  
+    .para p {
+      word-spacing: 10px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-left: 1.4rem;
+      padding-bottom: 10px;
+    }
+    
+    .social-handle {
+      margin-left: 10%;
+      height: 40px;
+      width: 100%;
+      float: left;
+    }
+  }

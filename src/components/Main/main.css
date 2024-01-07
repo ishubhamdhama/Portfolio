@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&family=Inconsolata:wght@200;300;400;500;600;700&family=Pacifico&family=Pixelify+Sans:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,200;1,700&display=swap');
+
+.container1 img {
+  width: 100%;
+  position: sticky;
+}
+
+.centered {
+  position: absolute;
+  top: 65%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  /* background-color: red; */
+}
+
+.social-icons {
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  transform: translateY(-50%);
+}
+
+.social-icons a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  color: white;
+  font-size: 20px;
+  
+}
+
+.social-icons a i:hover {
+  transform: translateY(-50%) scale(1.1);
+  /* Scale the individual icon up when hovered */
+  color: #fff !important;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+.centered h1 {
+  font-family: 'Baloo Paaji 2', cursive;
+  font-weight: 800;
+  font-size: 4.5rem;
+  color: #42464e;
+}
+
+.centered h2 {
+  font-family: 'Baloo Paaji 2', cursive;
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: #5a5b61;
+}
+
+.centered h3 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.7rem;
+  color: #5a5b61;
+  letter-spacing: 15px;
+}
+
+.centered button {
+  border: transparent;
+  padding: 9px 17px;
+  font-size: 1rem;
+  background-color: #4d62a9;
+  border-radius: 40px;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.centered button:hover {
+  background-color: #2d3b6c;
+}
+
+/* Tablet screens (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container1 img {
+    max-inline-size: 100%;
+    block-size: auto;
+    aspect-ratio: 1/2;
+    object-fit: cover;
+  }
+
+  .centered {
+    position: absolute;
+    top: 55%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    /* background-color: red; */
+    width: 70vw;
+    /* z-index: 999; */
+  }
+
+
+  .centered h1 {
+    font-family: 'Baloo Paaji 2', cursive;
+    font-weight: 800;
+    font-size: 4rem;
+    color: #42464e;
+  }
+
+  .centered h2 {
+    font-family: 'Baloo Paaji 2', cursive;
+    font-weight: 800;
+    font-size: 3rem;
+    color: #5a5b61;
+  }
+
+  .centered p {
+    font-family: 'Inconsolata', monospace;
+    font-size: 2rem;
+    color: #5a5b61;
+  }
+
+  .centered button {
+    border: transparent;
+    padding: 9px 17px;
+    font-size: 18px;
+    background-color: #4d62a9;
+    border-radius: 40px;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .centered button:hover {
+    background-color: #2d3b6c;
+  }
+
+  .social-icons {
+    position: absolute;
+    top: 80%;
+    left: 27.5%;
+    display: flex;
+  }
+
+  .social-icons a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    color: white;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+  }
+
+  .social-icons a i:hover {
+    transform: translateY(-50%) scale(1.1);
+    /* Scale the individual icon up when hovered */
+    color: #fff;
+  }
+}
+
+/* Mobile screens (up to 767px) */
+@media (max-width: 767px) {
+  .container1{
+    position: relative;
+  }
+  .container1 img {
+    max-inline-size: 100%;
+    block-size: auto;
+    aspect-ratio: 1/2;
+    object-fit: cover;
+  }
+
+  .centered {
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    /* background-color: red; */
+    width: 70vw;
+  }
+
+
+  .centered h1 {
+    font-family: 'Baloo Paaji 2', cursive;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #42464e;
+  }
+
+  .centered h2 {
+    font-family: 'Baloo Paaji 2', cursive;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #5a5b61;
+  }
+
+  .centered p {
+    font-family: 'Inconsolata', monospace;
+    font-size: 19px;
+    color: #5a5b61;
+  }
+
+  .centered button {
+    border: transparent;
+    padding: 9px 17px;
+    font-size: 13px;
+    background-color: #4d62a9;
+    border-radius: 40px;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .centered button:hover {
+    background-color: #2d3b6c;
+  }
+
+  .social-icons {
+    position: absolute;
+    top: 65%;
+    left: 6%;
+    display: flex;
+  }
+
+  .social-icons a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    color: white;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+  }
+
+  .social-icons a i:hover {
+    transform: translateY(-50%) scale(1.1);
+    /* Scale the individual icon up when hovered */
+    color: #fff;
+  }
+}
